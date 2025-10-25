@@ -1,8 +1,10 @@
 #include <iostream>
+using namespace std;
 
 int main() {
-    int a=5,b=3;
+    int a,b;
+    cin >> a >> b;
     int c=a+b;
-    std::cout << c << std::endl;
+    cout << c << endl;
     return 0;
 }
