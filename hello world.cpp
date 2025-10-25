@@ -1,10 +1,12 @@
 #include <iostream>
 using namespace std;
+int a,b,c;
 
 int main() {
-    int a,b;
-    cin >> a >> b;
-    int c=a+b;
-    cout << c << endl;
+    while(true){
+        cin >> a >> b;
+        c = a+b;
+        cout << c << endl;
+    }
     return 0;
 }
